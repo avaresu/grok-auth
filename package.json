@@ -1,0 +1,28 @@
+{
+  "name": "grok-auth",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "CLI for switching and managing multiple Grok Build CLI accounts",
+  "license": "MIT",
+  "bin": {
+    "grok-auth": "./bin/grok-auth.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avaresu/grok-auth.git"
+  },
+  "bugs": {
+    "url": "https://github.com/avaresu/grok-auth/issues"
+  },
+  "homepage": "https://github.com/avaresu/grok-auth#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": ["grok", "xai", "auth", "multi-account", "cli"],
+  "files": [
+    "bin/",
+    "lib/",
+    "README.md",
+    "LICENSE"
+  ]
+}
